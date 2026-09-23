@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="World" size="10.000000 10.556586" />
+    <ImageTarget name="Casa" size="512.000000 512.000000" />
+  </Tracking>
+</QCARConfig>
