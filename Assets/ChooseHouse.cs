@@ -18,7 +18,7 @@ public class ChooseHouse : MonoBehaviour
     {
         imageTarget.GetChild(currentIndex).gameObject.SetActive(false);
         currentIndex--;
-        if (currentIndex < 0) currentIndex = 0;
+        if (currentIndex < 0) currentIndex = numberOfHouses - 1;
         imageTarget.GetChild(currentIndex).gameObject.SetActive(true);
     }
 }
